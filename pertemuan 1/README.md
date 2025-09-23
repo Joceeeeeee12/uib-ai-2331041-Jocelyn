@@ -1,4 +1,5 @@
 #Tugas Lab AI Pertemuan 1 
+
 ##Membuat environment di Anaconda
 <img width="1920" height="1080" alt="Screenshot 2025-09-23 215300" src="https://github.com/user-attachments/assets/4f81a885-1e14-4e5c-a00c-e3d66fbc15ba" />
 
