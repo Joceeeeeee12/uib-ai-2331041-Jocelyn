@@ -1,39 +1,30 @@
 ## Deskripsi Singkat Project
 Project ini merupakan implementasi logika fuzzy untuk menentukan **tingkat kualitas film (Movie Quality)** berdasarkan beberapa faktor yang memengaruhi, yaitu **rating IMDb**, **tahun rilis**, dan **jumlah suara penonton (IMDb Votes)**. Dengan pendekatan fuzzy logic, sistem ini mampu menilai kualitas film secara fleksibel dan tidak kaku seperti perhitungan matematis biasa, sehingga hasilnya lebih menyerupai cara berpikir manusia.
 
-# Tujuan
+## Tujuan
 Tujuan utama dari project ini adalah untuk membangun **model penilaian kualitas film** menggunakan logika fuzzy yang dapat:
 1. Mengklasifikasikan film ke dalam kategori kualitas **Low**, **Medium**, atau **High**.
 2. Memberikan **skor kualitas (Movie Quality Score)** berdasarkan kombinasi beberapa parameter utama.
 3. Menyediakan hasil analisis yang dapat digunakan untuk memahami tren kualitas film dari data IMDb.
 
-### **Cara Kerja Logika Fuzzy**
-
+## Cara Kerja Logika Fuzzy
 Logika fuzzy digunakan karena mampu menangani data yang bersifat **subjektif dan tidak pasti**, seperti istilah “film lama tapi bagus” atau “rating sedang tapi populer”.
 Proses fuzzy berjalan melalui beberapa tahap:
-
 1. **Fuzzifikasi:** mengubah nilai numerik (seperti rating atau jumlah votes) menjadi derajat keanggotaan fuzzy (low, medium, high).
 2. **Inferensi:** menerapkan aturan logika fuzzy (fuzzy rules) untuk menggabungkan input menjadi keputusan.
 3. **Defuzzifikasi:** mengubah hasil fuzzy menjadi nilai numerik yang merepresentasikan kualitas film (0–10).
 
 Contoh aturan fuzzy:
-
 * Jika *IMDb Rating* **tinggi** dan *Jumlah Votes* **banyak**, maka *Kualitas Film* **tinggi**.
 * Jika *IMDb Rating* **rendah** atau *Jumlah Votes* **sedikit**, maka *Kualitas Film* **rendah**.
 * Jika *IMDb Rating* **sedang** dan *Tahun Rilis* **modern**, maka *Kualitas Film* **sedang**.
 
----
-
-### **Data yang Digunakan**
-
+## Data yang Digunakan
 Dataset (`data.csv`) berisi informasi film yang telah dibersihkan, dengan atribut utama sebagai berikut:
-
 * **imdbAverageRating** : skor penilaian film dari IMDb (0–10)
 * **releaseYear** : tahun rilis film
 * **imdbNumVotes** : jumlah pengguna yang memberikan suara
 * **title** : judul film
-
----
 
 ### **Input dan Output Sistem**
 
