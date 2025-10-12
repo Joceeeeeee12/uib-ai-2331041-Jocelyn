@@ -26,7 +26,7 @@ Dataset (`data.csv`) berisi informasi film yang telah dibersihkan, dengan atribu
 * **imdbNumVotes** : jumlah pengguna yang memberikan suara
 * **title** : judul film
 
-### **Input dan Output Sistem**
+## Input dan Output Sistem
 
 | Jenis       | Variabel        | Domain              | Fungsi Keanggotaan            |
 | ----------- | --------------- | ------------------- | ----------------------------- |
@@ -35,9 +35,7 @@ Dataset (`data.csv`) berisi informasi film yang telah dibersihkan, dengan atribu
 | **Input 3** | Number of Votes | 0–max_votes         | Few, Average, Many            |
 | **Output**  | Movie Quality   | 0–10                | Low, Medium, High             |
 
----
-
-### **Hasil dan Analisis**
+## Hasil dan Analisis
 
 Sistem menghasilkan kolom baru bernama **`movie_quality_score`** dan **`movie_quality_category`** yang menunjukkan nilai dan kategori kualitas film berdasarkan hasil fuzzy logic.
 Beberapa hasil visualisasi yang dibuat antara lain:
@@ -47,12 +45,5 @@ Beberapa hasil visualisasi yang dibuat antara lain:
 
 Selain itu, data film dengan skor tertinggi disimpan ke dalam file **`top-movies.csv`** untuk analisis lebih lanjut.
 
----
-
-### **Kesimpulan Singkat**
-
+## Kesimpulan Singkat
 Dengan logika fuzzy, sistem ini dapat menilai kualitas film dengan pendekatan yang **lebih fleksibel dan realistis** dibandingkan metode konvensional. Model ini mempertimbangkan kombinasi beberapa faktor — tidak hanya rating, tetapi juga tahun rilis dan jumlah penonton — untuk menghasilkan penilaian yang lebih mendekati persepsi manusia terhadap kualitas film.
-
----
-
-Apakah kamu ingin saya bantu ubah versi ini jadi **versi singkat satu paragraf** (misalnya untuk ditulis di slide presentasi atau README GitHub)?
