@@ -3,7 +3,6 @@ Project ini merupakan implementasi logika fuzzy untuk menentukan **tingkat kuali
 
 # Tujuan
 Tujuan utama dari project ini adalah untuk membangun **model penilaian kualitas film** menggunakan logika fuzzy yang dapat:
-
 1. Mengklasifikasikan film ke dalam kategori kualitas **Low**, **Medium**, atau **High**.
 2. Memberikan **skor kualitas (Movie Quality Score)** berdasarkan kombinasi beberapa parameter utama.
 3. Menyediakan hasil analisis yang dapat digunakan untuk memahami tren kualitas film dari data IMDb.
