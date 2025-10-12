@@ -1,4 +1,4 @@
-## **Deskripsi Singkat Project**
+## Deskripsi Singkat Project
 Project ini merupakan implementasi logika fuzzy untuk menganalisis tingkat kemacetan lalu lintas berdasarkan data dari variabel antrian kendaraan, waktu tunggu, dan tingkat kedatangan kendaraan. Dengan menggunakan sistem inferensi fuzzy, model ini membantu menentukan tingkat kepadatan lalu lintas (Traffic Level) secara dinamis berdasarkan kondisi input yang berubah-ubah.
 
 ## **Tujuan**
